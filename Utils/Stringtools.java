@@ -5,4 +5,9 @@ public class Stringtools {
         return inputsentence.split(splitPattern);
     }
 
+    public static String[] splitSentence(String inputsentence){
+        return splitSentence(inputsentence," ");
+    }
+    
+
 }
